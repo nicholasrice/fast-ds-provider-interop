@@ -1,0 +1,19 @@
+{
+  "name": "fast-ds-provider-interop",
+  "version": "1.0.0",
+  "description": "Interop layer example for React and WC DesignSystemProviders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasrice/fast-ds-provider-interop.git"
+  },
+  "author": "",
+  "license": "./LICENSE",
+  "bugs": {
+    "url": "https://github.com/nicholasrice/fast-ds-provider-interop/issues"
+  },
+  "homepage": "https://github.com/nicholasrice/fast-ds-provider-interop#readme"
+}
