@@ -4,7 +4,9 @@
   "description": "Interop layer example for React and WC DesignSystemProviders",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,12 @@
     "@microsoft/fast-components-msft": "^1.6.0",
     "@microsoft/fast-jss-manager-react": "^4.8.0",
     "lodash-es": "^4.17.15",
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
