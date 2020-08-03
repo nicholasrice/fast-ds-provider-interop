@@ -33,6 +33,13 @@ export class App extends React.Component<{}, {backgroundColor: string}> {
                         <Button>Neutral</Button>
                         <Button appearance={ButtonAppearance.primary}>Primary</Button>
                     </div>
+                    <div>
+                        <h1 style={{fontSize: "var(--type-ramp-plus-6-font-size)", lineHeight: "var(--type-ramp-plus-6-line-height)", margin: 0}}>Web Components</h1>
+                        <p style={{fontSize: "var(--type-ramp-base-font-size)", lineHeight: "var(--type-ramp-base-line-height)", margin: 0}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, labore nobis delectus explicabo modi officia, aperiam maiores saepe accusamus excepturi illum rerum eaque magni sit? Quisquam atque perspiciatis sed ratione.</p>
+                        <p style={{fontSize: "var(--type-ramp-base-font-size)", lineHeight: "var(--type-ramp-base-line-height)", margin: 0}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, labore nobis delectus explicabo modi officia, aperiam maiores saepe accusamus excepturi illum rerum eaque magni sit? Quisquam atque perspiciatis sed ratione.</p>
+                        <fast-button>Neutral</fast-button>
+                        <fast-button appearance={"accent"}>Primary</fast-button>
+                    </div>
                 </div>
             </DSProviderInterop>
         )
