@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/nicholasrice/fast-ds-provider-interop/issues"
   },
-  "homepage": "https://github.com/nicholasrice/fast-ds-provider-interop#readme"
+  "homepage": "https://github.com/nicholasrice/fast-ds-provider-interop#readme",
+  "dependencies": {
+    "@microsoft/fast-components-msft": "^1.6.0",
+    "@microsoft/fast-jss-manager-react": "^4.8.0",
+    "lodash-es": "^4.17.15",
+    "react": "^16.13.1"
+  }
 }
