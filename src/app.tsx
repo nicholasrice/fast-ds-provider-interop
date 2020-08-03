@@ -3,6 +3,11 @@ import { DSProviderInterop } from "./ds-interop";
 import { DesignSystemDefaults } from "@microsoft/fast-components-styles-msft"
 import { Heading, Button, Paragraph, ButtonAppearance } from "@microsoft/fast-components-react-msft";
 
+/**
+ * Simple app to show @microsoft/fast-components-msft and @microsoft/fast-components-react-msft
+ * working from the same design-system-provider instance. Use the color input to change the design-system
+ * background color.
+ */
 export class App extends React.Component<{}, {backgroundColor: string}> {
     constructor(props) {
         super(props);

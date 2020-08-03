@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/nicholasrice/fast-ds-provider-interop.git"
   },
-  "author": "",
-  "license": "./LICENSE",
+  "author": "nicholasrice",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nicholasrice/fast-ds-provider-interop/issues"
   },
