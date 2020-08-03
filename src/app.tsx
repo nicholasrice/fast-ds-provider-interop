@@ -5,7 +5,7 @@ import { DesignSystemDefaults } from "@microsoft/fast-components-styles-msft"
 export class App extends React.Component {
     public render() {
         return (
-            <DSProviderInterop designSystem={DesignSystemDefaults}>
+            <DSProviderInterop designSystem={DesignSystemDefaults} useDefaults={true}>
                 hello world
             </DSProviderInterop>
         )
